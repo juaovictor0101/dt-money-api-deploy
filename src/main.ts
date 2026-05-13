@@ -17,6 +17,7 @@ async function bootstrap() {
     .setDescription('API para gerenciamento de transações financeiras')
     .setVersion('1.0')
     .addTag('transactions', 'Endpoints relacionados a transações financeiras')
+    .addTag('users', 'Endpoints relacionados a usuários')
     .build();
   
   const document = SwaggerModule.createDocument(app, config);
